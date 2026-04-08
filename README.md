@@ -35,7 +35,7 @@ The WAF is built using a **Middleware Architecture**. This means it acts as a ga
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/python-waf.git
+    git clone https://github.com/vchethan18/python-waf.git
     cd python-waf
     ```
 
