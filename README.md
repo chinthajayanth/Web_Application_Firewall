@@ -1,5 +1,5 @@
 
-# 🛡️ Custom Web Application Firewall (WAF)
+# Custom Web Application Firewall (WAF)
 
 This project is a functional **Web Application Firewall (WAF)** built with Python. I created this while studying Ethical Hacking to better understand how to defend web applications against common attacks at the **Application Layer (Layer 7)**.
 
@@ -7,7 +7,7 @@ Instead of just blocking IP addresses, this WAF performs **Deep Packet Inspectio
 
 
 
-## 🚀 How It Works
+## How It Works
 The WAF is built using a **Middleware Architecture**. This means it acts as a gatekeeper. Every time a browser sends a request, the WAF intercepts it, runs a series of security checks, and only "allows" the request if it is 100% safe.
 
 ### Key Security Features
@@ -24,14 +24,14 @@ The WAF is built using a **Middleware Architecture**. This means it acts as a ga
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python 3.x
 * **Framework:** Flask (for middleware and routing)
 * **Tools:** `urllib` (for decoding), `re` (for pattern matching)
 
 ---
 
-## 📥 Installation & Setup
+## Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -53,7 +53,7 @@ The WAF will start running on `http://localhost:8080`.
 
 ---
 
-## 🧪 Testing the Defense
+## Testing the Defense
 You can test the WAF using `curl` in your terminal to see it block real attacks.
 
 ### 1. Test SQL Injection (Blocked)
@@ -78,7 +78,7 @@ curl -A "sqlmap/1.5.8" http://localhost:8080/
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 Building this project helped me understand:
 1.  **HTTP Anatomy:** The precise structure of headers, blank lines, and bodies.
 2.  **Evasion Techniques:** How hackers use encoding to bypass simple firewalls.
@@ -87,9 +87,8 @@ Building this project helped me understand:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project is for **educational purposes only**. While it is a great way to learn about web security, it should not be used as the only line of defense for a high-traffic production application. Always follow the **Defense in Depth** principle.
 
 ---
 
-**Interested in Cybersecurity?** Feel free to reach out or contribute!
